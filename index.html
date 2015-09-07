@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800,300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Josefin+Slab:400,700,100' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,500' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Old+Standard+TT:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="./style/bootstrap.min.css">
+  <script src="./js/jquery-2.1.4.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+</head>
+<body>
+
+  <div class="hamburger" style="
+  width: 25px;
+  height: 25px;
+  position: fixed;
+  z-index: 99999;
+  top: 600px;
+  right: 20px;
+  ">
+    <a href="#">
+      <span id="ham"></span>
+      <span id="ham"></span>
+      <span id="ham"></span>
+    </a>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="col-md-6">
+          <span style="
+          float: left;
+          font-family: 'Ubuntu', sans-serif;
+          color: rgba(255,255,255,1);
+          font-weight: 500;">LOGIN WITH <u>EMAIL</u> OR <u>TWITTER</u></span>
+        </div>
+        <div class="col-md-6">
+
+        </div>
+      </div>
+    </div>
+
+    <!-- This is the header -->
+    <div class="row">
+
+      <div class="col-md-12">
+        <h1 class="title">Josefin <em style="font-weight: 100;">Design</em></h1>
+      </div>
+
+    </div>
+    <!-- This is the carousel -->
+    <div class="row">
+
+      <div class="col-md-12">
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel"
+           style=" height: 350px; margin-top: 15px; margin-bottom: 15px;">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img src="http://placehold.it/1500x380" class="img-responsive" alt="...">
+                </div>
+                <div class="item">
+                  <img src="http://placehold.it/1500x380"  class="img-responsive" alt="...">
+                </div>
+                <div class="item">
+                  <img src="http://placehold.it/1500x380"  class="img-responsive" alt="...">
+                </div>
+              </div>
+
+              <!-- Controls -->
+              <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+      </div>
+
+    </div>
+    <!-- This is the testimonials -->
+    <div class="row">
+
+      <div class="col-md-12" style="background-color: rgba(0,0,0,.5); font-family: 'Old Standard TT', sans-serif;">
+
+        <div class="col-md-6" style="margin-top: 15px;">
+          <div style=""></div>
+          <div class="col-md-12" style="text-align: center;">
+            <div class="col-md-4" style="text-align: center;">
+              <img src="./images/test1.png" class="testimonials-image">
+            </div>
+            <div class="col-md-8" style="text-align: center;">
+              <p style="font-family: 'Old Standard TT', sans-serif; font-size: 17px; font-weight: 300; text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Aenean sodales in ligula et sodales.
+                 Proin id lacus sed augue facilisis vehicula. Praesent fringilla magna et quam iaculis cursus.
+              </p>
+              <p style="font-size: 20px; font-weight: 900; font-family: 'Old Standard TT', sans-serif;"><b> John Doe </b></p>
+              <p style="letter-spacing: 2px;"> <i> <u>CTO, Uber</u></i> </p>
+            </div>
+          </div>
+        </div>
+
+          <div class="col-md-6" style="margin-top: 15px;">
+
+            <div class="col-md-12" style="text-align: center; ">
+
+              <div class="col-md-8" style="text-align: center;">
+                <p style="font-size: 17px; font-weight: 300; text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean sodales in ligula et sodales.
+                  Proin id lacus sed augue facilisis vehicula. Praesent fringilla magna et quam iaculis cursus.
+                </p>
+                <p style="font-size: 20px; font-weight: 900;"><b> Jane Doe </b></p>
+                <p style="letter-spacing: 2px;"> <i> <u>Engineer at Facebook</u></i> </p>
+              </div>
+              <div class="col-md-4" style="text-align: center;">
+                <img src="./images/test2.jpg" class="testimonials-image" >
+              </div>
+            </div>
+          </div>
+      </div>
+
+    </div>
+    <!-- This is the footer -->
+    <div class="row" style="background-color: rgba(0,0,0,.5); margin-top: 35px; margin-bottom: 15px;">
+
+      <div class="col-md-12">
+
+        <div class="col-md-6">
+        <p style="font-family: 'Old Standard TT', serif; font-weight: 700; font-size: 75px;">  WE </p>
+        <p style="font-family: 'Old Standard TT', serif; font-weight: 400; font-size: 35px; float: right;">  work with our heart   </p>
+        </div>
+        <div class="col-md-6">
+          <p style="font-family: 'Old Standard TT', serif; font-weight: 400; font-size: 35px;"> When you visit our office you will notice that we are many
+          to serve you then you will notice that we are </p>
+          <p style="font-family: 'Old Standard TT', serif; font-weight: 700; font-size: 75px; float: right;"> ONE </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</body>
+</html>
